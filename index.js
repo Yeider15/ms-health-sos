@@ -10,6 +10,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
+
 app.use('/api/sos', sosRoutes);
 
 app.get('/', (req, res) => {
